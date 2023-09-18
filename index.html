@@ -8,7 +8,7 @@
     <meta http-equiv="content-language" content="fr">
     <meta name="keywords" content="">
     <meta name="robots" content="index,follow">
-    <link rel="icon" href="ValérieLogo.png" data-cmp-info="9">
+    <link rel="icon" href="image/logo.png" data-cmp-info="9">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -92,9 +92,9 @@
                 if (descriptiontext) {
                     descriptiontext.className = "description-texthidden";
                 }
-                var adresseHonfleur = document.querySelector(".adresse-honfleur");
+                var adresseHonfleur = document.querySelector(".adresse-scev");
                 if (adresseHonfleur) {
-                    adresseHonfleur.className = "adresse-honfleurTiny";
+                    adresseHonfleur.className = "adresse-scevTiny";
                 }
                 var horaire = document.querySelector(".social");
                 if (horaire) {
@@ -180,9 +180,9 @@
                 if (descriptionTextHidden) {
                     descriptionTextHidden.className = "description-text";
                 }
-                var adresseHonfleurTiny = document.querySelector(".adresse-honfleurTiny");
+                var adresseHonfleurTiny = document.querySelector(".adresse-scevTiny");
                 if (adresseHonfleurTiny) {
-                    adresseHonfleurTiny.className = "adresse-honfleur";
+                    adresseHonfleurTiny.className = "adresse-scev";
                 }
                 var horaire = document.querySelector(".socialTiny");
                 if (horaire) {
@@ -214,12 +214,12 @@
   <body>
     <header class="nav" role="banner">
       <div class="contact">
-                <img class="tel-icon" src="tel-icon.png">
-                <a class="num" href="tel:">06.00.00.00.00</a>
+                <img class="tel-icon" src="image/tel-icon.png">
+                <a class="num" href="tel:">02.39.49.11.21</a>
             </div>
             <div class="menu">
                 <a href="index.html">
-                    <img class="logoheader" src="">
+                    <img class="logoheader" src="image/logo.png">
                 </a>
                 <button onclick="dropDown()" id="menuButton" class="tinyMenu">Menu</button>
                 <nav class="bigNav">
@@ -228,37 +228,44 @@
                             <a class="lien" href="index.html" title="Accueil">Accueil</a>
                         </li>
                         <li class="nav2">
-                            <a class="lien" href="" title=""> </a>
+                            <a class="lien" href="" title="Accueil">Équipements</a>
                         </li>
                         <li class="nav3">
-                            <a class="lien" href="" title=""></a>
+                            <a class="lien" href="" title="Réalisations">Réalisations</a>
                         </li>
                         <li class="nav4">
-                            <a class="lien" href="" title=""></a>
+                            <a class="lien" href="" title="À Propos">À Propos</a>
                         </li>
                         <li class="nav5">
-                            <a class="lien" href="" title=""></a>
-                        </li>
-                        <li class="nav6">
-                            <a class="lien" href="" title=""></a>
+                            <a class="lien" href="" title="Contact">Contact</a>
                         </li>
                 </ul>
               </nav>
             </div>
     </header>
-    <div>
-      
+    <div class="main">
+        <div class="photopresentation">
+            <div class="presbox">
+                <span class="underline">
+                    <img class="pressopraimg" alt="logo sopralu" src="image/logo.png">
+                </span>
+                <h3 class="desctextimg">Toutes menuiseries aluminium</h3>
+            </div>
+        </div>
+        <div class="accueilpres">
+            <h1>Sopralu<br>Sopralu<br>Sopralu<br>Sopralu<br>Sopralu<br>Sopralu</h1>
+        </div>
     </div>
     <footer>
-      <div class="adresse">
-                <h3 class="adresse-scev" style="text-decoration:underline; text-decoration-style: solid; font-weight: bold;">Adresse</h3>
-                <h5 class="adresse-scev"><br>rue du Rond d'Eau <br> 45XXX Saint-Cyr-En-Val <br> France</h5>
-            </div>
-            <div class="description">
+      <div class="description">
                 <h3 class="description-text" style="text-decoration: underline; text-decoration-style: solid 2px">Sopralu<br></h3>
-                <h5 class="description-text"><br>Profilage Alu</h5>
+                <h5 class="description-text"><br>VEP, VEC, murs rideaux, blocs Alu</h5>
                 <h3 class="social" style="text-decoration:underline; text-decoration-style: solid; font-weight: bold;">Horaires</h3>
-                <h5 class="social" style="position: relative"><br>Lundi-Vendredi<br>7h -12h <br>13h - 16h30 </h5>
+                <h5 class="social" style="position: relative"><br>Lundi-Vendredi<br>7h00 -12h00<br>13h00 - 16h30 </h5>
+            </div>
+            <div class="adresse">
+                <h3 class="adresse-scev" style="text-decoration:underline; text-decoration-style: solid; font-weight: bold;">Adresse</h3>
+                <h5 class="adresse-scev"><br>124 rue du Rond d'Eau <br> 45590 Saint-Cyr-En-Val <br> France</h5>
             </div>
     </footer>
   </body>
